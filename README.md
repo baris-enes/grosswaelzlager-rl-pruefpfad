@@ -37,10 +37,16 @@ Der Reinforcement-Learning-Agent soll **selbstständig lernen**, ob eine kosteng
 
 **Temperaturverteilung innerhalb des Großwälzlagers** beeinflusst die Eigenspannungen und Prüfentscheidungen:
 
+<p align="center">
+  <img src="plots/Temperatur_gradient.png" alt="Temperaturgradient" width="470"/>
+</p>
+
+
 $$
 \nabla T = \frac{T_{\text{innen}} - T_{\text{außen}}}{r_{\text{außen}} - r_{\text{innen}}}, \quad
 \text{Gradient}_{\text{normiert}} = \frac{\nabla T}{\nabla T_{\text{kritisch}}}
 $$
+
 
 
 
@@ -346,7 +352,7 @@ grosswaelzlager_pruef_rl/
 - Klassische **Q-Learning-Tabellen** reichen für einfache, klar strukturierte Prüfentscheidungen aus  
 - In **hochdimensionalen Zustandsräumen**,  (z. B. `env_wzl_2 - 4D`) ist eine **Deep-Q-Network-Architektur (DQN)** notwendig  
 - Die Kombination aus **Domänenwissen** (_z. B. Gradientformel, Werkstoffverhalten_) und datengetriebenem Lernen liefert robuste Prüfstrategien  
-  Nach 200.000 Episoden erreichte er einen stabilen durchschnittlichen Reward von **Ø 2.05**.
+  Nach 200.000 Episoden erreichte er einen stabilen durchschnittlichen Reward von   **Ø 2.05**.
   
 
 ---
