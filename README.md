@@ -41,16 +41,6 @@ Der Reinforcement-Learning-Agent soll **selbstständig lernen**, ob eine kosteng
   <img src="plots/Temperatur_gradient.png" alt="Temperaturgradient" width="470"/>
 </p>
 
-
-$$
-\nabla T = \frac{T_{\text{innen}} - T_{\text{außen}}}{r_{\text{außen}} - r_{\text{innen}}}, \quad
-\text{Gradient}_{\text{normiert}} = \frac{\nabla T}{\nabla T_{\text{kritisch}}}
-$$
-
-
-
-
-
 ###  Wärmebehandlungsverlauf
 
 Umwandlungen wie Austenit → Martensit oder Bainit folgen temperaturabhängigen Reaktionsraten, modelliert durch die Arrhenius-Gleichung:
@@ -344,7 +334,7 @@ grosswaelzlager_pruef_rl/
 ├── notebooks/                   ← Auswertung und Visualisierung
 │   └── agenten_plots.ipynb
 
-
+```
 
 
 ##  Fazit & nächste Schritte
