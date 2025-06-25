@@ -339,12 +339,13 @@ grosswaelzlager_pruef_rl/
 │   └── agenten_plots.ipynb
 
 
+
+
 ##  Fazit & nächste Schritte
 
 - Klassische **Q-Learning-Tabellen** reichen für einfache, klar strukturierte Prüfentscheidungen aus  
 - In **hochdimensionalen Zustandsräumen**,  (z. B. `env_wzl_2 - 4D`) ist eine **Deep-Q-Network-Architektur (DQN)** notwendig  
-- Die Kombination aus **Domänenwissen** (_z. B. Gradientformel, Werkstoffverhalten_) und datengetriebenem Lernen liefert robuste Prüfstrategien für Offshore-Komponenten  
-- Der leistungsstärkste Agent war der DQN mit 4D-Zustand.
+- Die Kombination aus **Domänenwissen** (_z. B. Gradientformel, Werkstoffverhalten_) und datengetriebenem Lernen liefert robuste Prüfstrategien  
   Nach 200.000 Episoden erreichte er einen stabilen durchschnittlichen Reward von **Ø 2.05**.
   
 
