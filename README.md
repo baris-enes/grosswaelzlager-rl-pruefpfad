@@ -37,9 +37,14 @@ Der Reinforcement-Learning-Agent soll **selbstständig lernen**, ob eine kosteng
 
 **Temperaturverteilung innerhalb des Großwälzlagers** beeinflusst die Eigenspannungen und Prüfentscheidungen:
 
-<p align="center">
-  <img src="plots/Temperatur_gradient.png" alt="Temperaturgradient" width="470"/>
-</p>
+
+<div style="text-align: center">
+  <img src="plots/Temperatur_gradient_weiß.png" width="450">
+</div>
+
+
+
+
 
 ###  Wärmebehandlungsverlauf
 
@@ -335,11 +340,8 @@ grosswaelzlager_pruef_rl/
 │   └── agenten_plots.ipynb
 
 ```
-<<<<<<< HEAD
-=======
 
 
->>>>>>> f17b729 (Neuer Plot (Temperaturgradient) hinzugefügt, README aktualisiert)
 
 
 ##  Fazit & nächste Schritte
