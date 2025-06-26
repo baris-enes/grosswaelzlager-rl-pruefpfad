@@ -335,6 +335,11 @@ grosswaelzlager_pruef_rl/
 │   └── agenten_plots.ipynb
 
 ```
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> f17b729 (Neuer Plot (Temperaturgradient) hinzugefügt, README aktualisiert)
 
 
 ##  Fazit & nächste Schritte
