@@ -38,9 +38,10 @@ Der Reinforcement-Learning-Agent soll **selbstständig lernen**, ob eine kosteng
 **Temperaturverteilung innerhalb des Großwälzlagers** beeinflusst die Eigenspannungen und Prüfentscheidungen:
 
 
-<div style="text-align: center">
+<p align="center">
   <img src="plots/Temperatur_gradient_weiß.png" width="450">
-</div>
+</p>
+
 
 
 
